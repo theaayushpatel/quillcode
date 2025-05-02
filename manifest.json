@@ -1,6 +1,7 @@
 {
 	"name": "Quillcode",
 	"version": "1.0.0",
-	"minAppVersion": "1.0.0",
-	"author": "Aayush Patel"
+	"minAppVersion": "1.5.0",
+	"author": "Aayush Patel",
+	"authorUrl": "https//github.com/theaayushpatel"
 }
