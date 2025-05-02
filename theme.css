@@ -1,22 +1,22 @@
 body {
-	--font-interface-theme: JetBrainsMono Nerd Font, monospace;
-	--font-text-theme: JetBrainsMono Nerd Font, monospace;
-	--font-mono-theme: JetBrainsMono Nerd Font, monospace;
-	text-align: justify !important; ;
+    --font-interface-theme: JetBrainsMono Nerd Font, monospace;
+    --font-text-theme: JetBrainsMono Nerd Font, monospace;
+    --font-mono-theme: JetBrainsMono Nerd Font, monospace;
+    text-align: justify !important; ;
 
-	--h1-size: 2em;
-	--h2-size: 1.7em;
-	--h3-size: 1.5em;
-	--h4-size: 1.2em;
-	--h5-size: 1em;
-	--h6-size: 0.875em;
+    --h1-size: 2em;
+    --h2-size: 1.7em;
+    --h3-size: 1.5em;
+    --h4-size: 1.2em;
+    --h5-size: 1em;
+    --h6-size: 0.875em;
 
-	--tab-radius: 10px;
-	--tab-radius-active: 10px;
-	--tab-curve: 10px;
+    --tab-radius: 10px;
+    --tab-radius-active: 10px;
+    --tab-curve: 10px;
 
-	--checkbox-radius: 10px;
-	--checkbox-size: 17px;
+    --checkbox-radius: 10px;
+    --checkbox-size: 17px;
 
     --button-radius: 10px;
 
@@ -31,15 +31,15 @@ body {
 }
 
 .inline-title {
-	text-align: center;
+    text-align: center;
 }
 
-.theme-dark .cm-inline-code{
+.theme-dark .cm-inline-code {
     color: #121212 !important;
     background-color: #ffffff !important;
 }
 
-.theme-light .cm-inline-code{
+.theme-light .cm-inline-code {
     color: #ffffff !important;
     background-color: #121212 !important;
 }
@@ -53,8 +53,8 @@ body {
 
     --text-normal: #e8e4da;
     --text-muted: #bfb8ae;
-    --text-accent: #ff8a8a;
-    --text-accent-hover: #ff6f6f;
+    --text-accent: #7fd4ff;
+    --text-accent-hover: #3399ff;
     --text-on-accent: #ffffff;
 
     --text-selection: #4a5a6a;
@@ -77,22 +77,22 @@ body {
     --code-comment: #a8a8b8;
     --code-keyword: #d4a8ff;
     --code-function: #7fd4d4;
-    --code-string: #ffb8b8;
+    --code-string: #7fd4a8;
     --code-number: #c8e8a8;
-    --code-important: #ff9f6e;
+    --code-important: #7fd4ff;
     --code-operator: #d4a8ff;
     --code-property: #7fd4a8;
     --code-punctuation: #a8b4ff;
-    --code-tag: #ff8a8a;
+    --code-tag: #7fd4ff;
     --code-value: #c8e8a8;
 
-    --link-color: #ff9f9f;
-    --link-color-hover: #ffb3b3;
+    --link-color: #7fd4ff;
+    --link-color-hover: #3399ff;
 
     --interactive-normal: #3a3e4e;
     --interactive-hover: #4a4f5f;
-	--interactive-accent: #3f684c;
-	--interactive-accent-hover: #548463;
+    --interactive-accent: #0077cc; /* Changed from greenish to blue */
+    --interactive-accent-hover: #3399ff; /* Changed from greenish to blue */
 
     --checkbox-marker-color: #121212;
     --checkbox-color: #f7f7f7;
@@ -119,18 +119,17 @@ body {
     --tag-border-color-hover: #3399ff;
 }
 
-
 .theme-light {
     --background-primary: #ffffff;
-    --background-secondary: #eaeaea;
-    --background-tertiary: #d6d6d6; 
+    --background-secondary: #f0f0f0;
+    --background-tertiary: #d9d9d9;
 
     --inline-title-color: #0077cc;
 
     --text-normal: #2e2e2e;
     --text-muted: #6c6c6c;
-    --text-accent: #d33a2f;
-    --text-accent-hover: #b82e26;
+    --text-accent: #0077cc;
+    --text-accent-hover: #3399ff;
     --text-on-accent: #ffffff;
 
     --text-selection: #e6d9c2;
@@ -138,12 +137,12 @@ body {
     --highlight-bg: #f0e3cc;
 
     --h1-color: #0077cc;
-    --h2-color: #6fbf8f;
-    --h3-color: #7a94e0;
+    --h2-color: #7fd4a8;
+    --h3-color: #a8b4ff;
 
     --bold-color: #0077cc;
 
-    --blockquote-border: #d3b48a;
+    --blockquote-border: #0077cc; /* Changed from greenish to blue */
     --blockquote-text: #51463f;
     --table-border: #e1d5c1;
     --hr-color: #ddd0b6;
@@ -153,22 +152,22 @@ body {
     --code-comment: #a8a8b8;
     --code-keyword: #d4a8ff;
     --code-function: #7fd4d4;
-    --code-string: #ffb8b8;
+    --code-string: #7fd4a8;
     --code-number: #c8e8a8;
-    --code-important: #ff9f6e;
+    --code-important: #0077cc;
     --code-operator: #d4a8ff;
     --code-property: #7fd4a8;
     --code-punctuation: #a8b4ff;
-    --code-tag: #ff8a8a;
+    --code-tag: #7fd4ff;
     --code-value: #c8e8a8;
 
-    --link-color: #af3f3f;
-    --link-color-hover: #c15656;
+    --link-color: #0077cc;
+    --link-color-hover: #3399ff;
 
     --interactive-normal: #e5dac4;
     --interactive-hover: #ddd2bc;
-    --interactive-accent: #3f684c;
-    --interactive-accent-hover: #548463;
+    --interactive-accent: #0077cc; /* Changed from greenish to blue */
+    --interactive-accent-hover: #3399ff; /* Changed from greenish to blue */
 
     --checkbox-marker-color: #ffffff;
     --checkbox-color: #3a3e4e;
