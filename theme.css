@@ -1,7 +1,7 @@
 body {
-    --font-interface-theme: JetBrainsMono Nerd Font, monospace;
-    --font-text-theme: JetBrainsMono Nerd Font, monospace;
-    --font-mono-theme: JetBrainsMono Nerd Font, monospace;
+    --font-interface-theme: JetBrainsMono, monospace;
+    --font-text-theme: JetBrainsMono, monospace;
+    --font-mono-theme: JetBrainsMono, monospace;
 
     --h1-size: 2em;
     --h2-size: 1.7em;
