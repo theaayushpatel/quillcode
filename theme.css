@@ -28,6 +28,7 @@ body {
     --hr-thickness: 2px;
 
     --link-decoration: underline;
+    --caret-color: var(--text-selection);
 
 }
 
@@ -122,7 +123,6 @@ body {
     --text-on-accent: #ffffff;
 
     --text-selection: #e6d9c2;
-
     --h1-color: #0077cc;
     --h2-color: #59b384;
     --h3-color: #8191ff;
@@ -167,4 +167,16 @@ body {
     --tag-background-hover: #00b7ff;
     --tag-border-color: #0077cc;
     --tag-border-color-hover: #3399ff;
+}
+
+.HyperMD-codeblock .obsidian-search-match-highlight {
+    background-color: var(--interactive-accent) !important;
+    color: var(--text-on-accent) !important;
+    mix-blend-mode: normal !important;
+}
+
+.HyperMD-codeblock .obsidian-search-match-highlight > * {
+    background-color: var(--interactive-accent) !important;
+    color: var(--text-on-accent) !important;
+    mix-blend-mode: normal !important;
 }
